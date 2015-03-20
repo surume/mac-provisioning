@@ -1,0 +1,6 @@
+homebrew_taps:
+  - homebrew/binary
+  - homebrew/dupes
+  - caskroom/cask
+  - sanemat/font
+  - motemen/ghq

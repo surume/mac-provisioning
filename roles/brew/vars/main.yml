@@ -1,0 +1,39 @@
+homebrew_taps:
+  - homebrew/binary
+  - homebrew/dupes
+  - caskroom/cask
+  - sanemat/font
+  - motemen/ghq
+
+homebrew_packages:
+  - { name: git }
+  - { name: zsh, install_options: disable-etcdir }
+  - { name: wget }
+  - { name: curl }
+  - { name: cmake }
+  - { name: autoconf }
+  - { name: automake }
+  - { name: pkg-config }
+  - { name: ctags }
+  - { name: tree }
+  - { name: lv }
+  - { name: nkf }
+  - { name: jq }
+  - { name: go }
+  - { name: direnv }
+  - { name: peco }
+  - { name: hub }
+  - { name: tig }
+  - { name: rbenv }
+  - { name: ruby-build }
+  - { name: packer }
+  - { name: socat }
+  - { name: rlwrap }
+  - { name: w3m }
+  - { name: tmux }
+  - { name: ghq }
+  - { name: reattach-to-user-namespace }
+  - { name: graphviz }
+  - { name: autojump }
+  - { name: gibo }
+  - { name: source-highlight }

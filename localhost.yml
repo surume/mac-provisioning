@@ -4,8 +4,9 @@
   sudo: no
   roles:
     - common
-    - brew
-    - cask
-    - ricty
-    - zsh
-    - prezto
+#   - brew
+#   - cask
+#   - ricty
+#   - zsh
+#   - prezto
+    - git

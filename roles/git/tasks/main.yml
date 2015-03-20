@@ -1,0 +1,11 @@
+- name: symlink gitignore
+  file: src={{ pwd }}/dotfiles/git/.gitignore dest=~/.gitignore force=no state=link
+
+- name: symlink gitconfig
+  file: src={{ pwd }}/dotfiles/git/gitconfig dest=~/.gitconfig force=no state=link 
+
+- name: symlink gitattributes
+  file: src={{ pwd }}/dotfiles/git/.gitattributes dest=~/.gitattributes force=no state=link 
+
+- name: copy gitconfig_local
+  copy: src={{ pwd }}/dotfiles/git/gitconfig_local dest=~/.gitconfig_local force=no

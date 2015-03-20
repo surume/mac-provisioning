@@ -4,23 +4,7 @@
   sudo: no
   roles:
     - common
-#    - brew
-#    - cask
-#   - ricty
-
-  tasks:
-    # oh-my-zsh
-    #- name: oh-my-zsh のインストール
-    #  shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-    #  args:
-    #  creates: ~/.oh-my-zsh/
-
-    - name: zsh 設定
-      shell: |
-        cat /etc/shells | grep zsh > /dev/null
-        if !$? ; then
-          sudo sh -c "sudo echo /usr/local/bin/zsh >> /etc/shells"
-        fi
-        chsh -s /usr/local/bin/zsh
-
-
+    - brew
+    - cask
+    - ricty
+    - zsh

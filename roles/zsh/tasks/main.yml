@@ -1,0 +1,8 @@
+- name: /etc/shells check
+  shell: " cat /etc/shells | grep /usr/local/bin/zsh && echo 'found' || echo ''"
+  register: shells_writed
+- name: zsh 設定
+  shell: |
+    sudo sh -c "sudo echo /usr/local/bin/zsh >> /etc/shells"
+    chsh -s /usr/local/bin/zsh
+  when: (not shells_writed.stdout)

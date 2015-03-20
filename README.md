@@ -1,4 +1,5 @@
 # mac-provisioning
 
-ほぼほぼ @ twada　さんのパクリ
+
+ほぼほぼ @twada　さんのパクリ
 https://github.com/twada/macbook-provisioning

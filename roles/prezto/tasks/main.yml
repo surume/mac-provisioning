@@ -11,5 +11,5 @@
   register: zpreztorc_exist
 
 - name: prezto init setting
-  shell: zsh ./preztoSetting.sh
+  shell: zsh ./script/preztoSetting.sh
   when: (not zpreztorc_exist.stdout)

@@ -30,3 +30,4 @@ homebrew_packages:
   - { name: autojump }
   - { name: gibo }
   - { name: source-highlight }
+  - { name: vim, install_option: --with-lua }

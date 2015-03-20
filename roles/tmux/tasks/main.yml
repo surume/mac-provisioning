@@ -1,0 +1,2 @@
+- name: symlink gitignore
+  file: src={{ pwd }}/dotfiles/.tmux.conf dest=~/.tmux.conf force=yes state=link

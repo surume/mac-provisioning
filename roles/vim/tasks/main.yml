@@ -1,0 +1,13 @@
+- name: neobundle exist check
+  shell: "[ -e ~/.vim/bundle/neobundle.vim ] && echo 'found' || echo ''"
+  register: neobundle_exist
+
+- name: neobundle install
+  git: repo=git://github.com/Shougo/neobundle.vim dest=~/.vim/bundle/neobundle.vim
+  when: (not neobundle_exist.stdout)
+
+- name: symlink vimrc
+  file: src={{ pwd }}/dotfiles/.vimrc dest=~/.vimrc force=yes state=link
+
+- name: symlink vimrc_misc
+  file: src={{ pwd }}/dotfiles/vim/vimrc dest=~/.vim/vimrc force=yes state=link

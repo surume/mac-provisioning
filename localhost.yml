@@ -12,3 +12,5 @@
     - vim
     - prezto
     - zsh
+    - emacs
+    - emacs_cask

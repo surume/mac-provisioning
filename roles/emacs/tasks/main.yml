@@ -1,0 +1,2 @@
+- name: symlink emacs.d
+  file: src={{ pwd }}/dotfiles/.emacs.d dest=~/.emacs.d force=yes state=link

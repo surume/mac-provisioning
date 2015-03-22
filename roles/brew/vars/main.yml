@@ -31,3 +31,5 @@ homebrew_packages:
   - { name: gibo }
   - { name: source-highlight }
   - { name: vim, install_option: --with-lua }
+  - { name: emacs }
+  - { name: cask }

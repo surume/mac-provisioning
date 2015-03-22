@@ -1,3 +1,3 @@
 # mac-provisioning
 
-```./bootstrap```
+```./bootstrap ```

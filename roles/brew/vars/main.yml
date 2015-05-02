@@ -33,3 +33,4 @@ homebrew_packages:
   - { name: vim, install_option: --with-lua }
   - { name: emacs }
   - { name: cask }
+  - { name: direnv }

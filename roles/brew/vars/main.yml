@@ -19,6 +19,8 @@ homebrew_packages:
   - { name: tig }
   - { name: rbenv }
   - { name: ruby-build }
+  - { name: rbenv-default-gems }
+  - { name: rbenv-gem-rehash }
   - { name: packer }
   - { name: socat }
   - { name: rlwrap }

@@ -1,0 +1,5 @@
+- name: Install direnv
+  shell: |
+    curl https://github.com/zimbatm/direnv/releases/download/v2.6.0/direnv.linux-amd64 > ~/bin/direnv
+    chmod +x ~/bin/direnv
+    echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc

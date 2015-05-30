@@ -1,0 +1,3 @@
+- name: /etc/shells check
+  shell: " cat /etc/shells | grep /usr/local/bin/zsh && echo 'found' || echo ''"
+  register: shells_writed

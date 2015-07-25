@@ -1,15 +1,20 @@
 homebrew_cask_packages:
-  - { name: iterm2 }
-  - { name: google-chrome }
-  - { name: slack }
-  - { name: karabiner }
-  - { name: flux }
-  - { name: dash }
-  - { name: skitch }
-  - { name: seashore }
-  - { name: google-japanese-ime }
   - { name: atom }
-  - { name: kobito }
-  - { name: vagrant }
-  - { name: virtualbox }
+  - { name: caffeine }
+  - { name: dash }
   - { name: dropbox }
+  - { name: dropbox }
+  - { name: flux }
+  - { name: google-chrome }
+  - { name: google-japanese-ime }
+  - { name: iterm2 }
+  - { name: karabiner }
+  - { name: kobito }
+  - { name: seashore }
+  - { name: skitch }
+  - { name: slack }
+  - { name: the-unarchiver }
+  - { name: vagrant }
+  - { name: vagrant-bar }
+  - { name: virtualbox }
+  - { name: xquartz }

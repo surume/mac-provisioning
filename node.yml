@@ -1,0 +1,64 @@
+anyenv:
+  anyenv_root: env[HOME]
+  install_envs:
+    - rbenv
+    - exenv
+    - hsenv
+  install_versions:
+    - rbenv:
+      - 2.2.2
+    - exenv:
+      - 1.0.5
+    - hsenv:
+      - 7.8.4
+
+brew:
+  enable_update: false
+  enable_upgrade: false
+  add_repositories:
+    - homebrew/dupes
+    - homebrew/versions
+    - homebrew/binary
+    - peco/peco
+    - motemen/ghq
+  install_packages:
+    - brew-cask
+    - coreutils
+    - findutils
+    - zsh
+    - bash
+    - vim
+    - tmux
+    - git
+    - hub
+    - tig
+    - ghq
+    - imagemagick
+    - wget
+    - rsync
+    - curl
+    - tree
+    - openssl
+    - libyaml
+    - readline
+    - markdown
+    - jq
+    - peco
+    - ctags
+    - z
+  install_apps:
+    - atom
+    - alfred
+    - google-chrome
+    - iterm2
+    - slack
+    - virtualbox
+    - vagrant
+    - vagrant-manager
+    - google-japanese-ime
+    - dash
+    - triler
+    - dropbox
+    - xtrafinder
+    - appcleaner
+    - caffeine

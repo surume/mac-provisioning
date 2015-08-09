@@ -1,16 +1,12 @@
-ANYENV_PATH = "#{ENV['HOME']}/.anyenv"
+node[:anyenv][:anyenv_root] += "/.anyenv"
 
-git ANYENV_PATH do
-  repository "https://github.com/riywo/anyenv"
-end
+include_recipe "anyenv::system"
 
-git "#{ANYENV_PATH}/plugins/anyenv-update" do
-  repository "https://github.com/znz/anyenv-update.git"
-end
-
-directory "#{ANYENV_PATH}/envs"
-
-execute "install exenv" do
-  command "#{ANYENV_PATH}/bin/anyenv install -f exenv"
-  not_if "type exenv"
+node[:anyenv][:install_versions].each do |env_name, versions|
+  versions.each do |ver|
+    execute "#{env_name} install #{ver}" do
+      command "#{anyenv_init} #{env_name} install #{ver}"
+      not_if "#{anyenv_init} #{env_name} versions | grep #{ver}"
+    end
+  end
 end

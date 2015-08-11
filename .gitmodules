@@ -1,6 +1,3 @@
 [submodule "dotfiles"]
 	path = dotfiles
 	url = git@github.com:Surume/dotfiles.git
-[submodule "itamae-node_env"]
-	path = itamae-node_env
-	url = git@github.com:Surume/itamae-node_env.git

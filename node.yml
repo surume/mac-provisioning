@@ -12,6 +12,7 @@ anyenv:
     - hsenv:
       - 7.8.4
 
+
 brew:
   enable_update: false
   enable_upgrade: false
@@ -19,46 +20,76 @@ brew:
     - homebrew/dupes
     - homebrew/versions
     - homebrew/binary
+    - sanemat/font
     - peco/peco
     - motemen/ghq
   install_packages:
-    - brew-cask
-    - coreutils
-    - findutils
-    - zsh
+#   - ack
+#   - aspell
+#   - autoconf
+    - autojump
+    - automake
     - bash
-    - vim
-    - tmux
-    - git
-    - hub
-    - tig
-    - ghq
-    - imagemagick
-    - wget
-    - rsync
-    - curl
-    - tree
-    - openssl
-    - libyaml
-    - readline
-    - markdown
-    - jq
-    - peco
+    - brew-cask
+    - cask
+    - cmake
+    - coreutils
     - ctags
-    - z
+    - curl
+    - direnv
+    - emacs
+    - findutils
+    - fontforge
+    - fpp
+#   - ghc
+    - ghq
+    - gibo
+    - git
+#   - go
+    - hub
+    - imagemagick
+    - jq
+    - lv
+    - markdown
+#   - node
+    - packer
+    - peco
+    - ricty
+    - the_silver_searcher
+    - tig
+    - tmux
+    - tree
+    - vim
+    - w3m
+    - wget
+    - zsh
+    - zsh-completions
   install_apps:
-    - atom
     - alfred
-    - google-chrome
-    - iterm2
-    - slack
-    - virtualbox
-    - vagrant
-    - vagrant-manager
-    - google-japanese-ime
-    - dash
-    - triler
-    - dropbox
-    - xtrafinder
     - appcleaner
+    - atom
+#   - bartender
     - caffeine
+    - dash
+    - dropbox
+    - evernote
+    - flux
+    - google-chrome
+    - google-japanese-ime
+    - insomniax
+    - iterm2
+    - karabiner
+    - kindle
+    - kobito
+#   - seashore
+#   - sketch
+    - skitch
+    - slack
+    - the-unarchiver
+    - trailer
+    - vagrant
+    - vagrant-bar
+    - vagrant-manager
+    - virtualbox
+    - xquartz
+#   - xtrafinder

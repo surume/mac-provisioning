@@ -55,7 +55,7 @@ brew:
 #   - node
     - packer
     - peco
-    - ricty
+    - "--vim-powerline ricty"
     - reattach-to-user-namespace
     - the_silver_searcher
     - tig

@@ -63,6 +63,7 @@ brew:
     - vim
     - w3m
     - wget
+    - z
     - zsh
     - zsh-completions
   install_apps:

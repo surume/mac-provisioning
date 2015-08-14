@@ -18,12 +18,13 @@ brew:
   enable_update: false
   enable_upgrade: false
   add_repositories:
+    - homebrew/binary
     - homebrew/dupes
     - homebrew/versions
-    - homebrew/binary
-    - sanemat/font
-    - peco/peco
     - motemen/ghq
+    - peco/peco
+    - railwaycat/emacsmacport
+    - sanemat/font
   install_packages:
 #   - ack
 #   - aspell
@@ -38,7 +39,8 @@ brew:
     - ctags
     - curl
     - direnv
-    - emacs
+#   - emacs
+    - "emacs-mac --with-spacemacs-icon"
     - findutils
     - fontforge
     - fpp

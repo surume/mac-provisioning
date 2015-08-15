@@ -17,7 +17,7 @@ $ git clone git@github.com:Surume/mac-provisioning.git
 ## Usage
 
 ```bash
-$ itamae -y node.yml roles/local.rb
+$ itamae local -y node.yml roles/local.rb
 ```
 
 ## Licence

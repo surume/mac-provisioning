@@ -21,7 +21,7 @@ $ bundle
 ## Usage
 
 ```bash
-$ bundle exec itamae-env local -y node.yml cookbooks/anyenv/default.rb
+$ bundle exec itamae-env local -y node.yml roles/local.rb
 ```
 
 ## Licence

@@ -2,7 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     ansi (1.5.0)
-    coderay (1.1.0)
     hashie (3.4.2)
     itamae (1.4.3)
       ansi
@@ -15,18 +14,12 @@ GEM
     itamae-plugin-recipe-anyenv (0.1.8)
       itamae (~> 1.4.0)
     itamae-plugin-recipe-homebrew (0.0.1)
-    method_source (0.8.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
     net-telnet (0.1.1)
-    pry (0.10.1)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
     schash (0.1.2)
     sfl (2.2)
-    slop (3.6.0)
     specinfra (2.40.1)
       net-scp
       net-ssh (~> 2.7)
@@ -42,7 +35,6 @@ DEPENDENCIES
   itamae-node_env
   itamae-plugin-recipe-anyenv
   itamae-plugin-recipe-homebrew
-  pry
 
 BUNDLED WITH
    1.10.6

@@ -1,3 +1,0 @@
-- name: symlink gitignore
-  shell: |
-    cask upgrade

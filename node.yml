@@ -1,0 +1,100 @@
+anyenv:
+  anyenv_root: env[HOME]
+  install_envs:
+    - rbenv
+    - exenv
+    - hsenv
+  install_versions:
+    - rbenv:
+      - 2.2.2
+    - exenv:
+      - 1.0.5
+    - hsenv:
+      - 7.8.4
+
+
+brew:
+  install_path: /Applications
+  enable_update: false
+  enable_upgrade: false
+  add_repositories:
+    - homebrew/binary
+    - homebrew/dupes
+    - homebrew/versions
+    - motemen/ghq
+    - peco/peco
+    - railwaycat/emacsmacport
+    - sanemat/font
+  install_packages:
+#   - ack
+#   - aspell
+#   - autoconf
+    - autojump
+    - automake
+    - bash
+    - brew-cask
+    - cask
+    - cmake
+    - coreutils
+    - ctags
+    - curl
+    - direnv
+#   - emacs
+    - "emacs-mac --with-spacemacs-icon"
+    - findutils
+    - fontforge
+    - fpp
+#   - ghc
+    - ghq
+    - gibo
+    - git
+#   - go
+    - hub
+    - imagemagick
+    - jq
+    - lv
+    - markdown
+#   - node
+    - packer
+    - peco
+    - "--vim-powerline ricty"
+    - reattach-to-user-namespace
+    - the_silver_searcher
+    - tig
+    - tmux
+    - tree
+    - vim
+    - w3m
+    - wget
+    - z
+    - zsh
+    - zsh-completions
+  install_apps:
+    - alfred
+    - appcleaner
+    - atom
+#   - bartender
+    - caffeine
+    - dash
+    - dropbox
+    - evernote
+    - flux
+    - google-chrome
+    - google-japanese-ime
+    - insomniax
+    - iterm2
+    - karabiner
+    - kindle
+    - kobito
+#   - seashore
+#   - sketch
+    - skitch
+    - slack
+    - the-unarchiver
+    - trailer
+    - vagrant
+    - vagrant-bar
+    - vagrant-manager
+    - virtualbox
+    - xquartz
+#   - xtrafinder

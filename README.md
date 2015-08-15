@@ -1,4 +1,4 @@
-mac-provisioning
+mac-provsioning
 ====
 
 Surume`s mac Provisioning

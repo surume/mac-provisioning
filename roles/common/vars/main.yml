@@ -1,8 +1,0 @@
-homebrew_taps:
-  - homebrew/binary
-  - homebrew/dupes
-  - caskroom/cask
-  - sanemat/font
-  - motemen/ghq
-local_home: "{{ lookup('env', 'HOME') }}"
-pwd: "{{ lookup('env', 'PWD') }}"

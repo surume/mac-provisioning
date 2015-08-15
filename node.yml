@@ -3,14 +3,14 @@ anyenv:
   install_envs:
     - rbenv
     - exenv
-    - hsenv
+    # - hsenv
   install_versions:
     - rbenv:
       - 2.2.2
     - exenv:
       - 1.0.5
-    - hsenv:
-      - 7.8.4
+    # - hsenv:
+    #   - 7.8.4
 
 
 brew:
@@ -44,7 +44,7 @@ brew:
     - findutils
     - fontforge
     - fpp
-#   - ghc
+    - ghc
     - ghq
     - gibo
     - git

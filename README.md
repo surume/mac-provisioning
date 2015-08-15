@@ -6,7 +6,7 @@ Surume`s mac Provisioning
 ## Requirements
 
 require gems
-- itamae
+- bundler
 
 ## Installation
 
@@ -14,10 +14,14 @@ require gems
 $ git clone git@github.com:Surume/mac-provisioning.git
 ```
 
+```bash
+$ bundle
+```
+
 ## Usage
 
 ```bash
-$ itamae local -y node.yml roles/local.rb
+$ bundle exec itamae-env local -y node.yml cookbooks/anyenv/default.rb
 ```
 
 ## Licence

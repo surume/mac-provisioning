@@ -41,6 +41,7 @@ brew:
     - direnv
 #   - emacs
     - "emacs-mac --with-spacemacs-icon"
+    - erlang
     - findutils
     - fontforge
     - fpp
@@ -57,7 +58,7 @@ brew:
 #   - node
     - packer
     - peco
-    - "--vim-powerline ricty"
+    - ricty
     - reattach-to-user-namespace
     - the_silver_searcher
     - tig

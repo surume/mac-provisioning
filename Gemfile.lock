@@ -11,7 +11,7 @@ GEM
       thor
     itamae-node_env (0.0.8)
       itamae (>= 1.1.1)
-    itamae-plugin-recipe-anyenv (0.1.9)
+    itamae-plugin-recipe-anyenv (0.1.12)
       itamae (~> 1.4.0)
     itamae-plugin-recipe-homebrew (0.0.1)
     net-scp (1.2.1)

@@ -1,5 +1,5 @@
 anyenv:
-  anyenv_root: env[HOME]
+  anyenv_root: env[HOME]/.anyenv
   install_envs:
     - rbenv
     - exenv

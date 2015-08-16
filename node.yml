@@ -27,7 +27,7 @@ brew:
     - sanemat/font
   install_packages:
 #   - ack
-#   - aspell
+    - aspell
 #   - autoconf
     - autojump
     - automake

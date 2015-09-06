@@ -22,6 +22,7 @@ brew:
     - peco/peco
     - railwaycat/emacsmacport
     - sanemat/font
+    - yudai/gotty
   install_packages:
 #   - ack
     - aspell
@@ -46,6 +47,7 @@ brew:
     - ghq
     - gibo
     - git
+    - gotty
 #   - go
     - hub
     - imagemagick

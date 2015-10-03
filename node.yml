@@ -55,6 +55,7 @@ brew:
     - lv
     - markdown
 #   - node
+    - nodebrew
     - packer
     - peco
     - ricty

@@ -54,7 +54,6 @@ brew:
     - jq
     - lv
     - markdown
-#   - node
     - nodebrew
     - packer
     - peco

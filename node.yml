@@ -3,6 +3,7 @@ anyenv:
   install_envs:
     - rbenv
     - exenv
+    - goenv
   install_versions:
     - rbenv:
       - 2.2.3

@@ -26,6 +26,7 @@ brew:
     - yudai/gotty
   install_packages:
 #   - ack
+    - android-sdk
     - aspell
 #   - autoconf
     - autojump

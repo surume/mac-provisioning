@@ -84,6 +84,7 @@ brew:
     - flux
     - google-chrome
     - google-japanese-ime
+    - intel-haxm
     - insomniax
     - iterm2
     - karabiner

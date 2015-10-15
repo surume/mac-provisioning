@@ -85,6 +85,7 @@ brew:
     - google-chrome
     - google-japanese-ime
     - intel-haxm
+    - intellij-idea
     - insomniax
     - iterm2
     - karabiner

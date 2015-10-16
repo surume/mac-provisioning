@@ -25,10 +25,10 @@ brew:
     - sanemat/font
     - yudai/gotty
   install_packages:
-#   - ack
+    # - ack
     - android-sdk
     - aspell
-#   - autoconf
+    # - autoconf
     - autojump
     - automake
     - bash
@@ -39,8 +39,8 @@ brew:
     - ctags
     - curl
     - direnv
-#   - emacs
-    - "emacs-mac --with-spacemacs-icon"
+    # - emacs
+    # - "emacs-mac --with-spacemacs-icon"
     - erlang
     - findutils
     - fontforge
@@ -50,7 +50,7 @@ brew:
     - gibo
     - git
     - gotty
-#   - go
+    # - go
     - hub
     - imagemagick
     - jq
@@ -75,7 +75,7 @@ brew:
     - alfred
     - appcleaner
     - atom
-#   - bartender
+    # - bartender
     - caffeine
     - dash
     - dropbox
@@ -92,8 +92,8 @@ brew:
     - karabiner
     - kindle
     - kobito
-#   - seashore
-#   - sketch
+    # - seashore
+    # - sketch
     - skitch
     - slack
     - the-unarchiver
@@ -103,4 +103,4 @@ brew:
     - vagrant-manager
     - virtualbox
     - xquartz
-#   - xtrafinder
+    # - xtrafinder

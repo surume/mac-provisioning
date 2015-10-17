@@ -8,7 +8,7 @@ anyenv:
     - rbenv:
       - 2.2.3
     - exenv:
-      - 1.1.0-beta
+      - 1.1.1
 
 
 brew:

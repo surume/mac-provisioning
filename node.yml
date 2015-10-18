@@ -39,7 +39,6 @@ brew:
     - ctags
     - curl
     - direnv
-    # - emacs
     # - "emacs-mac --with-spacemacs-icon"
     - erlang
     - findutils

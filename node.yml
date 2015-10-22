@@ -39,6 +39,9 @@ brew:
     - ctags
     - curl
     - direnv
+    - docker
+    - docker-compose
+    - docker-machine
     # - "emacs-mac --with-spacemacs-icon"
     - erlang
     - findutils

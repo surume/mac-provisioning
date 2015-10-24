@@ -42,6 +42,7 @@ brew:
     - docker
     - docker-compose
     - docker-machine
+    - docker-swarm
     # - "emacs-mac --with-spacemacs-icon"
     - erlang
     - findutils

@@ -85,6 +85,7 @@ brew:
     - evernote
     - firefoxdeveloperedition-ja
     - flux
+    - forklift
     - google-chrome
     - google-japanese-ime
     - intel-haxm

@@ -49,7 +49,7 @@ brew:
     - gibo
     - git
     - gotty
-    # - go
+    - go
     - hub
     - imagemagick
     - jq

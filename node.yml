@@ -82,6 +82,7 @@ brew:
     - caffeine
     - dash
     - dropbox
+    - emacs
     - evernote
     - firefoxdeveloperedition-ja
     - flux

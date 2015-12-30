@@ -90,6 +90,7 @@ brew:
     - intellij-idea
     - insomniax
     - iterm2
+    - java
     - kaleidoscope
     - karabiner
     - kindle

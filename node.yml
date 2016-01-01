@@ -85,6 +85,7 @@ brew:
     - firefoxdeveloperedition-ja
     - flux
     - forklift
+    - genymotion
     - google-chrome
     - google-japanese-ime
     - intel-haxm

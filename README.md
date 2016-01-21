@@ -11,19 +11,5 @@ require gems
 ## Installation
 
 ```bash
-$ git clone git@github.com:Surume/mac-provisioning.git
+$ curl -s -L http://raw.githubusercontent.com/Surume/mac-provisioning/master/install.sh | sh
 ```
-
-```bash
-$ bundle
-```
-
-## Usage
-
-```bash
-$ bundle exec itamae-env local -y node.yml roles/local.rb
-```
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)

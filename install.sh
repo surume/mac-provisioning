@@ -23,13 +23,20 @@ fi
 install_dir="$HOME/src/github.com/Surume/mac-provisioning"
 if [ ! -d $install_dir ]; then
     echo '##############################'
-    echo 'start git clone'
+    echo 'start git clone mac-provisioning'
     echo '##############################'
     git clone git@github.com:Surume/mac-provisioning.git $install_dir
 fi
 
 echo "Change Directory $install_dir"
 cd $install_dir
+
+if [ ! -d ./dotfiles ]; then
+    echo '##############################'
+    echo 'start git clone dotfiles'
+    echo '##############################'
+    git clone git@github.com:Surume/dotfiles.git
+fi
 
 if ! which bundle > /dev/null 2>&1 ; then
     echo '##############################'
@@ -40,3 +47,7 @@ fi
 
 echo 'bundle exec itamae-env local -y node.yml roles/local.rb'
 bundle exec itamae-env local -y node.yml roles/local.rb
+
+if [ -d ./dotfiles ]; then
+    sh ./dotfiles/install
+fi

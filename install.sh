@@ -49,6 +49,18 @@ fi
 echo 'bundle exec itamae-env local -y node.yml roles/local.rb'
 bundle exec itamae-env local -y node.yml roles/local.rb
 
+echo '##############################'
+echo 'Install latest node'
+echo '##############################'
+if [ ! -d ~/.nodebrew/src ]; then
+    mkdir -p ~/.nodebrew/src
+fi
+nodebrew install-binary latest
+nodebrew use latest
+
+echo '##############################'
+echo 'Install dotfiles'
+echo '##############################'
 if [ -d `pwd`/dotfiles ]; then
     cd `pwd`/dotfiles
     sh ~/dotfiles/install

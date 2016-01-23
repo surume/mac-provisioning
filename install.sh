@@ -31,11 +31,12 @@ fi
 echo "Change Directory $install_dir"
 cd $install_dir
 
-if [ ! -d ./dotfiles ]; then
+echo `pwd`/dotfiles
+if [ ! -d `pwd`/dotfiles ]; then
     echo '##############################'
     echo 'start git clone dotfiles'
     echo '##############################'
-    git clone git@github.com:Surume/dotfiles.git
+    git clone git@github.com:Surume/dotfiles.git `pwd`/dotfiles
 fi
 
 if ! which bundle > /dev/null 2>&1 ; then
@@ -48,6 +49,6 @@ fi
 echo 'bundle exec itamae-env local -y node.yml roles/local.rb'
 bundle exec itamae-env local -y node.yml roles/local.rb
 
-if [ -d ./dotfiles ]; then
-    sh ./dotfiles/install
+if [ -d `pwd`/dotfiles ]; then
+    sh `pwd`/dotfiles/install
 fi

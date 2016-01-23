@@ -50,5 +50,6 @@ echo 'bundle exec itamae-env local -y node.yml roles/local.rb'
 bundle exec itamae-env local -y node.yml roles/local.rb
 
 if [ -d `pwd`/dotfiles ]; then
-    sh `pwd`/dotfiles/install
+    cd `pwd`/dotfiles
+    sh ~/dotfiles/install
 fi

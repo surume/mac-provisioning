@@ -64,6 +64,7 @@ brew:
     - the_silver_searcher
     - tig
     - tmux
+    - http://www.soimort.org/translate-shell/translate-shell.rb
     - tree
     - vim
     - w3m

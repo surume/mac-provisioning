@@ -32,6 +32,7 @@ brew:
     # - autoconf
     - autojump
     - automake
+    - aws-cli
     - bash
     # - brew-cask
     # - cask
@@ -61,6 +62,7 @@ brew:
     - peco
     # - ricty
     - reattach-to-user-namespace
+    - sbt
     - the_silver_searcher
     - tig
     - tmux

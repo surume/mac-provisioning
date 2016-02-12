@@ -32,7 +32,7 @@ brew:
     # - autoconf
     - autojump
     - automake
-    - aws-cli
+    - awscli
     - bash
     # - brew-cask
     # - cask

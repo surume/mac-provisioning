@@ -28,7 +28,7 @@ brew:
   install_packages:
     # - ack
     - android-sdk
-    - aspell
+    # - aspell
     # - autoconf
     - autojump
     - automake
@@ -45,7 +45,7 @@ brew:
     - erlang
     # - findutils
     # - fontforge
-    - fpp
+    # - fpp
     - ghc
     - ghq
     - gibo
@@ -66,29 +66,29 @@ brew:
     - the_silver_searcher
     - tig
     - tmux
-    - http://www.soimort.org/translate-shell/translate-shell.rb
+    # - http://www.soimort.org/translate-shell/translate-shell.rb
     - tree
     - vim
-    - w3m
+    # - w3m
     - wget
-    - z
+    # - z
     - zsh
     - zsh-completions
   install_apps:
-    - alfred
+    # - alfred
     - android-studio
     - appcleaner
     - atom
     # - bartender
     - caffeine
-    - dash
+    # - dash
     - dockertoolbox
     - dropbox
     - emacs
     - evernote
     # - firefoxdeveloperedition-ja
     - flux
-    - forklift
+    # - forklift
     - genymotion
     # - google-chrome
     - --caskroom=/Applications google-chrome
@@ -96,16 +96,16 @@ brew:
     - hyperswitch
     # - intel-haxm
     - intellij-idea
-    - insomniax
+    # - insomniax
     - iterm2
     - java
-    - kaleidoscope
+    # - kaleidoscope
     - karabiner
     - kindle
     # - kobito
     # - seashore
     # - sketch
-    - skitch
+    # - skitch
     - slack
     - the-unarchiver
     - trailer
@@ -113,5 +113,5 @@ brew:
     # - vagrant-bar
     - vagrant-manager
     - virtualbox
-    - xquartz
+    # - xquartz
     # - xtrafinder

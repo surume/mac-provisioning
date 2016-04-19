@@ -93,6 +93,7 @@ brew:
     # - google-chrome
     - --caskroom=/Applications google-chrome
     - google-japanese-ime
+    - gpgtools
     - hyperswitch
     # - intel-haxm
     - intellij-idea

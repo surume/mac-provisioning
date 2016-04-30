@@ -39,4 +39,5 @@ build/
 .rvmrc
 
 dotfiles
+.DS_Store
 

@@ -24,6 +24,7 @@ brew:
     # - peco/peco
     # - railwaycat/emacsmacport
     # - sanemat/font
+    - tkengo/highway
     # - yudai/gotty
   install_packages:
     # - ack
@@ -53,6 +54,7 @@ brew:
     # - gotty
     - go
     - hub
+    - highway
     # - imagemagick
     - jq
     # - lv

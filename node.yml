@@ -83,7 +83,7 @@ brew:
     # - dash
     - dockertoolbox
     - dropbox
-    - emacs
+    # - emacs
     - evernote
     # - firefoxdeveloperedition-ja
     - flux

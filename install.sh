@@ -89,6 +89,5 @@ cat << 'EOF'
 =================================================================================================================
 EOF
 if [ -d `pwd`/dotfiles ]; then
-    cd `pwd`/dotfiles
-    sh ~/dotfiles/install
+    sh `pwd`/dotfiles/install
 fi

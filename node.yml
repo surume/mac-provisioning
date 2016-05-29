@@ -24,7 +24,7 @@ brew:
     # - yudai/gotty
   install_packages:
     # - ack
-    - android-sdk
+    # - android-sdk
     # - aspell
     # - autoconf
     - autojump
@@ -61,7 +61,7 @@ brew:
     - peco
     # - ricty
     - reattach-to-user-namespace
-    - sbt
+    # - sbt
     - the_silver_searcher
     - tig
     - tmux
@@ -74,31 +74,31 @@ brew:
     - zsh
     - zsh-completions
   install_apps:
-    # - alfred
-    - android-studio
+    - alfred
+    # - android-studio
     - appcleaner
-    - atom
+    # - atom
     # - bartender
     - caffeine
     # - dash
     - dockertoolbox
-    - dropbox
+    # - dropbox
     # - emacs
-    - evernote
+    # - evernote
     # - firefoxdeveloperedition-ja
     - flux
     # - forklift
-    - genymotion
+    # - genymotion
     # - google-chrome
-    - --caskroom=/Applications google-chrome
+    # - --caskroom=/Applications google-chrome
     - google-japanese-ime
-    - gpgtools
-    - hyperswitch
+    # - gpgtools
+    # - hyperswitch
     # - intel-haxm
-    - intellij-idea
+    # - intellij-idea
     # - insomniax
     - iterm2
-    - java
+    # - java
     # - kaleidoscope
     - karabiner
     - kindle
@@ -111,7 +111,7 @@ brew:
     - trailer
     - vagrant
     # - vagrant-bar
-    - vagrant-manager
+    # - vagrant-manager
     - virtualbox
     # - xquartz
     # - xtrafinder

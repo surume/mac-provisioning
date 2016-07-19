@@ -5,8 +5,8 @@ anyenv:
       - 2.3.1
     - exenv:
       - 1.3.2
-    - nodeenv:
-      - v6.2.2
+    - nodenv:
+      - 6.2.2
 
 brew:
   install_path: /Applications
@@ -26,13 +26,13 @@ brew:
     # - yudai/gotty
   install_packages:
     # - ack
-    - android-sdk
+    # - android-sdk
     # - aspell
     # - autoconf
     - autojump
     - automake
     - awscli
-    - bash
+    # - bash
     # - brew-cask
     # - cask
     # - cmake
@@ -59,7 +59,7 @@ brew:
     # - lv
     - markdown
     # - nodebrew
-    - packer
+    # - packer
     - peco
     # - ricty
     - reattach-to-user-namespace
@@ -77,25 +77,24 @@ brew:
     - zsh-completions
   install_apps:
     # - alfred
-    - android-studio
+    # - android-studio
     - appcleaner
     - atom
     # - bartender
     - caffeine
     # - dash
-    - dockertoolbox
+    # - dockertoolbox
     - dropbox
-    # - emacs
     - evernote
     # - firefoxdeveloperedition-ja
     - flux
     # - forklift
-    - genymotion
+    # - genymotion
     # - google-chrome
     - --caskroom=/Applications google-chrome
     - google-japanese-ime
     - gpgtools
-    - hyperswitch
+    # - hyperswitch
     # - intel-haxm
     - intellij-idea
     # - insomniax
@@ -104,7 +103,6 @@ brew:
     # - kaleidoscope
     - karabiner
     - kindle
-    # - kobito
     - licecap
     # - seashore
     # - sketch
@@ -113,7 +111,6 @@ brew:
     - the-unarchiver
     - trailer
     - vagrant
-    # - vagrant-bar
     - vagrant-manager
     - virtualbox
     # - xquartz

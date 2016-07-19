@@ -29,6 +29,15 @@ EOF
     brew doctor
 fi
 
+if ! which m > /dev/null 2>&1 ; then
+    cat << 'EOF'
+=================================================================================================================
+ Install [m-cli] command
+=================================================================================================================
+EOF
+    curl -fsSL https://raw.githubusercontent.com/rgcr/m-cli/master/install.sh | sh
+fi
+
 # =============================
 # clone git repogitory
 # =============================
@@ -63,6 +72,7 @@ EOF
     printf "password: "
     read password
     echo "$password" | sudo -S gem install bundler
+    bundle install --path=vendor/bundle
 fi
 
 cat << 'EOF'

@@ -14,7 +14,9 @@ brew:
   enable_upgrade: false
   add_repositories:
     - caskroom/fonts
-    - d12frosted/emacs-plus
+    # - d12frosted/emacs-plus
+    - railwaycat/emacsmacport
+brew install 
     # - homebrew/binary
     # - homebrew/dupes
     # - homebrew/versions
@@ -40,8 +42,8 @@ brew:
     # - ctags
     - curl
     - direnv
-    - emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
-    # - "emacs-mac --with-spacemacs-icon"
+    # - emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
+    - emacs-mac --with-gnutls --with-imagemagick --with-spacemacs-icon
     - erlang
     # - findutils
     # - fontforge

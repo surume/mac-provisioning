@@ -88,6 +88,7 @@ brew:
     - evernote
     # - firefoxdeveloperedition-ja
     - flux
+    - font-fira-code
     # - forklift
     # - genymotion
     # - google-chrome

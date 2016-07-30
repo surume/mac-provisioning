@@ -81,6 +81,7 @@ brew:
     - appcleaner
     # - atom
     # - bartender
+    - bettertouchtool
     - caffeine
     # - dash
     # - dropbox

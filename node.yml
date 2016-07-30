@@ -4,7 +4,9 @@ anyenv:
     - rbenv:
       - 2.3.1
     - exenv:
-      - 1.2.5
+      - 1.3.2
+    - nodenv:
+      - 6.2.2
 
 brew:
   install_path: /Applications
@@ -12,7 +14,8 @@ brew:
   enable_upgrade: false
   add_repositories:
     - caskroom/fonts
-    - d12frosted/emacs-plus
+    # - d12frosted/emacs-plus
+    - railwaycat/emacsmacport
     # - homebrew/binary
     # - homebrew/dupes
     # - homebrew/versions
@@ -30,7 +33,7 @@ brew:
     - autojump
     - automake
     - awscli
-    - bash
+    # - bash
     # - brew-cask
     # - cask
     # - cmake
@@ -38,8 +41,8 @@ brew:
     # - ctags
     - curl
     - direnv
-    - emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
-    # - "emacs-mac --with-spacemacs-icon"
+    # - emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
+    - emacs-mac --with-gnutls --with-imagemagick --with-spacemacs-icon
     - erlang
     # - findutils
     # - fontforge
@@ -56,8 +59,8 @@ brew:
     - jq
     # - lv
     - markdown
-    - nodebrew
-    - packer
+    # - nodebrew
+    # - packer
     - peco
     # - ricty
     - reattach-to-user-namespace
@@ -65,7 +68,6 @@ brew:
     - the_silver_searcher
     - tig
     - tmux
-    # - http://www.soimort.org/translate-shell/translate-shell.rb
     - tree
     - vim
     # - w3m
@@ -81,12 +83,15 @@ brew:
     # - bartender
     - caffeine
     # - dash
-    - dockertoolbox
     # - dropbox
     # - emacs
     # - evernote
+    # - dockertoolbox
+    - dropbox
+    - evernote
     # - firefoxdeveloperedition-ja
     - flux
+    - font-fira-code
     # - forklift
     # - genymotion
     # - google-chrome
@@ -102,7 +107,7 @@ brew:
     # - kaleidoscope
     - karabiner
     - kindle
-    # - kobito
+    - licecap
     # - seashore
     # - sketch
     # - skitch

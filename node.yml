@@ -35,6 +35,8 @@ brew:
     - awscli
     # - bash
     # - brew-cask
+    - newt
+    - byobu
     # - cask
     # - cmake
     # - coreutils

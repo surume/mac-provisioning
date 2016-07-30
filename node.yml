@@ -83,6 +83,7 @@ brew:
     # - bartender
     - bettertouchtool
     - caffeine
+    - clipy
     # - dash
     # - dropbox
     # - emacs

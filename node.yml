@@ -68,6 +68,7 @@ brew:
     # - ricty
     - reattach-to-user-namespace
     # - sbt
+    - sshrc
     - the_silver_searcher
     - tig
     - tmux
